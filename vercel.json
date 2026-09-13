@@ -1,4 +1,5 @@
 {
-  "buildCommand": "npm run build",
-  "installCommand": "npm install"
+  "framework": null,
+  "buildCommand": "VITE_AUTH_ENABLED=false npm run build",
+  "installCommand": "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm install"
 }
